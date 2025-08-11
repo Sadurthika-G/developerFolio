@@ -146,24 +146,40 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Runner-up – BVS Conference",
-      subtitle: "Organized by the Government of Gujarat"
+      subtitle: "Organized by the Government of Gujarat",
+      image: "https://via.placeholder.com/150", // added image
+      footerLink: [
+        { name: "Certificate", url: "https://example.com/certificate1" }
+      ]
     },
     {
       title: "Top 5 – AICTE Arm Community Project",
-      subtitle: "All India Ranking in tech contest"
+      subtitle: "All India Ranking in tech contest",
+      image: "https://via.placeholder.com/150",
+      footerLink: [
+        { name: "Project Details", url: "https://example.com/project" }
+      ]
     },
     {
       title: "Best Paper Award",
-      subtitle: "International Conference at Suguna College"
+      subtitle: "International Conference at Suguna College",
+      image: "https://via.placeholder.com/150",
+      footerLink: [
+        { name: "Award Details", url: "https://example.com/award" }
+      ]
     },
     {
       title: "Hackathon Champion",
-      subtitle:
-        "EDII Hackathon 2024 by Govt. of Tamil Nadu – 1st Prize"
+      subtitle: "EDII Hackathon 2024 by Govt. of Tamil Nadu – 1st Prize",
+      image: "https://via.placeholder.com/150",
+      footerLink: [
+        { name: "Event Details", url: "https://example.com/event" }
+      ]
     }
   ],
   display: true
 };
+
 
 // Blog Section
 
