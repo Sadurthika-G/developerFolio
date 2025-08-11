@@ -25,8 +25,14 @@ const greeting = {
   subTitle: emoji(
     "I am a dedicated and passionate individual striving to make a meaningful impact in technology and entrepreneurship. With interests in Machine Learning, IoT, and Sustainable Technology, I thrive at the intersection of cutting-edge technology and real-world applications."
   ),
-  resumeLink: "", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink:
+    "https://docs.google.com/spreadsheets/d/1LsirOvNEmcWH8F4SifbiE5_dDHBVOGdI0pdVGmhh6HM/edit?usp=sharing", // added
+  displayGreeting: true
+};
+
+const openSource = {
+  showGithubProfile: true, // changed from string to boolean
+  display: true
 };
 
 // Social Media Links
