@@ -30,11 +30,6 @@ const greeting = {
   displayGreeting: true
 };
 
-const openSource = {
-  showGithubProfile: true, // changed from string to boolean
-  display: true
-};
-
 // Social Media Links
 
 const socialMediaLinks = {
